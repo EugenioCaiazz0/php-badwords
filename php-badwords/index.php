@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title> Form Page </title>
+</head>
+
+<body>
+    
+    <div class="container-fluid d-flex justify-content-center my-3">
+        <div class="w-25">
+            <form action="formPage.php" method="GET" class="">
+                <div class="mb-3">
+                    <label class="form-label fs-5 fw-bold" placeholder=""> Testo incriminato </label>
+                    <input name="indictedText" type="text" class="form-control text-primary" placeholder="Inserire testo">
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label fs-5 fw-bold" placeholder=""> Parola incriminata </label>
+                    <input name="indictedWord" type="text" class="form-control text-primary" placeholder="Inserire parola da censurare">
+                </div>
+                
+                <button type="submit" class="btn btn-primary"> Invio </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
