@@ -1,7 +1,6 @@
 <?php 
-
 $indictedText = $_GET['indictedText'];
-$indictedWord = $_GET['indictedWord'];
+$indictedWord = $_GET['indictedWord']
 ?>
 
 <!DOCTYPE html>
